@@ -11,6 +11,7 @@
 				"-o",
 				"${workspaceRoot}/build/${fileBasenameNoExtension}",
 				"-std=c11",
+				"-lm"
 			],
 			"options": {
 				"cwd": "${workspaceRoot}"
