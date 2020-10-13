@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "cstdlib": "c",
+        "algorithm": "c",
+        "array": "c",
+        "*.tcc": "c",
+        "random": "c",
+        "numeric": "c",
+        "istream": "c"
+    }
+}
