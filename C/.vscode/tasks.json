@@ -1,30 +1,28 @@
 {
-	"tasks": [
-		{
-			"type": "shell",
-			"label": "gcc",
-			"command": "/usr/bin/gcc",
-			"args": [
-				"-g",
-				"-Wall",
-				"${file}",
-				"-o",
-				"${workspaceRoot}/build/${fileBasenameNoExtension}",
-				"-std=c11",
-				"-lm",
-				"-lpthread"
-			],
-			"options": {
-				"cwd": "${workspaceRoot}"
-			},
-			"problemMatcher": [
-				"$gcc"
-			],
-			"group": {
-				"kind": "build",
-				"isDefault": true
-			}
-		}
-	],
-	"version": "2.0.0"
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "gcc",
+            "command": "/usr/bin/gcc",
+            "args": [
+                "-g",
+                "-Wall",
+                "${file}",
+                "-o",
+                "${workspaceRoot}/build/${fileBasenameNoExtension}",
+                "-std=c11"
+            ],
+            "options": {
+                "cwd": "${workspaceRoot}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ],
+    "version": "2.0.0"
 }
